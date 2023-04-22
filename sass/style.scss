@@ -186,8 +186,7 @@ h1.company-name {
 		left: 1em;
 		bottom: 2em;
 		z-index: 500;
-		opacity: 0.5;
-		transition: transform 200ms;
+		opacity: 0;
 
 		img {
 			width: 100%;
@@ -195,6 +194,7 @@ h1.company-name {
 
 		&--active {
 			transform: translateX(0%);
+			opacity: 0.5;
 		}
 	}
 }

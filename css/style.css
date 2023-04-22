@@ -188,14 +188,14 @@ h1.company-name {
   left: 1em;
   bottom: 2em;
   z-index: 500;
-  opacity: 0.5;
-  transition: transform 200ms;
+  opacity: 0;
 }
 .nav__homeBtn img {
   width: 100%;
 }
 .nav__homeBtn--active {
   transform: translateX(0%);
+  opacity: 0.5;
 }
 
 .cards {

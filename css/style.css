@@ -189,6 +189,7 @@ h1.company-name {
   bottom: 2em;
   z-index: 500;
   opacity: 0;
+  transition: transform 1s, opacity 1s;
 }
 .nav__homeBtn img {
   width: 100%;
